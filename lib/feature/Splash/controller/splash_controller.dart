@@ -36,9 +36,9 @@ class SplashController extends GetxController {
     super.onInit();
   }
 
-  bool getPermissions<T>(PermissionMessage message) {
+  bool getPermissions<T>(PermissionMessage message, {isLocation = false}) {
     _status.value = message.onStatus;
-    if (T is LocationHelper && message.succes) {
+    if (isLocation && message.succes) {
       _lattitude.value = message.positionInfo!.lat!;
       _longitude.value = message.positionInfo!.lon!;
     }
@@ -54,7 +54,7 @@ class SplashController extends GetxController {
         getPermissions(await _internetConnectionHelper.isProcess());
     if (isInternet) {
       bool isLocation =
-          getPermissions<LocationHelper>(await _locationHelper.isProcess());
+          getPermissions(await _locationHelper.isProcess(), isLocation: true);
       if (isInternet && isLocation) {
         await getWeatherData();
       }
