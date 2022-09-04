@@ -1,17 +1,8 @@
 
 # Flu Weather Project
 
-Bir mobil hava durumu uygulamasıdır. 
-
-
-
-
-   
-## Uygulama Ekran Görünümü
-  | Ana Sayfa I | Ana Sayfa II |
-  | -------------  | ------------- |
-  |![drawing](https://github.com/flyboy12/flu_weather_project/blob/main/screen_shot/Screenshot_1662327791.png?raw=true)|![drawing](https://github.com/flyboy12/flu_weather_project/blob/main/screen_shot/Screenshot_1662327800.png?raw=true)|
-  |![drawing](https://github.com/flyboy12/flu_weather_project/blob/main/screen_shot/Screenshot_1662327891.png?raw=true)|![drawing](https://github.com/flyboy12/flu_weather_project/blob/main/screen_shot/Screenshot_1662327896.png?raw=true)|
+Bir mobil hava durumu uygulamasıdır.   
+  
 ## Yol haritası
 
 - Görsel iyileştirmelerde bulunma
@@ -111,3 +102,9 @@ lib/
     |- helpers/
     |- services/
 ```   
+
+## Uygulama Ekran Görünümü
+  | Ana Sayfa I | Ana Sayfa II |
+  | -------------  | ------------- |
+  |![drawing](https://github.com/flyboy12/flu_weather_project/blob/main/screen_shot/Screenshot_1662327791.png?raw=true)|![drawing](https://github.com/flyboy12/flu_weather_project/blob/main/screen_shot/Screenshot_1662327800.png?raw=true)|
+  |![drawing](https://github.com/flyboy12/flu_weather_project/blob/main/screen_shot/Screenshot_1662327891.png?raw=true)|![drawing](https://github.com/flyboy12/flu_weather_project/blob/main/screen_shot/Screenshot_1662327896.png?raw=true)|
