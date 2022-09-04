@@ -62,7 +62,6 @@ api_key.dart dosyanıza eklemeniz gerekecek
 
 ### Kullanılan Paketler
 
-* geocoding: ^2.0.4
 * geolocator: ^9.0.1
 * get: ^4.6.5
 * http: ^0.13.5
